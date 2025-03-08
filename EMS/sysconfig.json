@@ -1,0 +1,10 @@
+{
+    "masterdevice1":
+    {
+        "name":"yunt_plamtform",
+        "port":"rtu",
+        "baud":"115200",
+        "protkey":"/device/tts3",
+        "cycle":"200"
+    }
+}
