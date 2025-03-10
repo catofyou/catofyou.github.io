@@ -1,10 +1,20 @@
 {
-    "masterdevice1":
+    "master1":
     {
         "name":"yunt_plamtform",
         "port":"rtu",
         "baud":"115200",
         "protkey":"/device/tts3",
-        "cycle":"200"
+        "cycle":"200",
+        "protocols":"modbus"
+    },
+    "master2":
+    {
+        "name":"hmi",
+        "port":"tcp",
+        "ip":"192.168.2.231",
+        "prot":"1502",
+        "cycle":"200",
+        "protocols":"modbus"
     }
 }
